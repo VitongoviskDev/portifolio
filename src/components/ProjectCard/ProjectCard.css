@@ -80,13 +80,25 @@
     align-items: center;
     gap: 1em;
 
-    margin-top: 2em;}
+    margin-top: 2em;
+}
 @media (min-width: 500px){
     .project-card{
         width: min(80%, 30em)
     }
     .project__buttons-container{
         flex-direction: row;
+    }
+}
+@media (min-width: 744px){
+    .project__title{
+        font-size: 28px;
+    }
+    .project__description{
+        font-size: 16px;
+    }
+    .project__technology{
+        font-size: 14px;
     }
 }
 @media (min-width: 1200px){
