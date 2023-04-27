@@ -147,5 +147,6 @@
     }
     .project__technology{
         font-size: 14px;
+        background-color: var(--clr-highlight-900);
     }
 }
