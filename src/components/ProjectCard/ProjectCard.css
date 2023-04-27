@@ -69,7 +69,7 @@
 
     list-style-type: none;
 
-    background-color: var(--clr-highlight-700);
+    background-color: var(--clr-highlight-900);
     border-radius: .25em;
 }
 .project__buttons-container{
@@ -147,6 +147,6 @@
     }
     .project__technology{
         font-size: 14px;
-        background-color: var(--clr-highlight-900);
+        background-color: var(--clr-highlight-700);
     }
 }
