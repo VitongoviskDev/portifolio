@@ -1,0 +1,147 @@
+.contact{
+    padding: 4em 0 2em;
+    font-family: var(--ff-primary);
+    background-color: var(--clr-primary-700);
+}
+.contact__title-container{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+.contact__title{
+    font-size: 22px;
+    color: var(--clr-secondary-900);
+}
+.contact__subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--clr-highlight-900);
+}
+.contact__content{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact__text{
+    line-height: 2.5em;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--clr-secondary-700);
+    margin-bottom: 32px;
+}
+
+.contact__form{
+    padding: 1em 1.5em;
+
+    background-color: var(--clr-highlight-900);
+    border-radius: 1em;
+
+    width: min(100%, 32em);
+    margin: 0 auto;
+}
+
+.contact__form__field{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    padding: .25em;
+}
+.contact__form__label{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--clr-white-700);
+}
+.contact__form__input{
+    padding: 1em 1.5em;
+    min-height: 250px;
+    margin-bottom: 16px;
+
+    font-family: var(--ff-primary);
+    font-size: 12px;
+    color: var(--clr-white-700);
+
+    background-color: var(--clr-highlight-700);
+
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+    resize: none;
+}
+.contact__form__input::placeholder{
+    font-family: var(--ff-primary);
+    color: var(--clr-white-400);
+}
+.contact__form__button{
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--clr-highlight-900);
+
+    background-color: var(--clr-white-700);
+    border: none;
+    border-radius: 8px;
+    
+    cursor: pointer;
+}
+.contact__form__warning{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--clr-black-400);
+}
+
+@media (min-width: 744px) {
+    
+    .contact__title{
+        font-size: 32px;
+    }
+    .contact__subtitle{
+        font-size: 22px;
+        margin-top: -.25em;
+    }
+    .contact__text{
+        font-size: 16px;
+    }
+    .contact__form__input{
+        font-size: 14px;
+    }
+    .contact__form__input::placeholder{
+        font-size: 14px;
+    }
+    .contact__form__button{
+        padding: 1em 0;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .contact__title{
+        font-size: 36px;
+    }
+    .contact__subtitle{
+        font-size: 28px;
+        margin-top: -.25em;
+    }
+    .contact__content{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+    .contact__text{
+        width: min(50%, 30em);
+        font-size: 18px;
+    }
+    .contact__form{
+        margin: 0;
+    }
+}

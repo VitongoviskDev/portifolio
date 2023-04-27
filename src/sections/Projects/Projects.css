@@ -1,0 +1,24 @@
+.projects{
+    padding: 4em 0 2em;
+    background-color: var(--clr-highlight-900);
+}
+.projects__title{
+    margin-bottom: 3em;
+
+    font-family: var(--ff-primary);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--clr-black-700);
+}
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+@media (min-width: 1200px) {
+    .projects{
+        padding: 6em 0;
+    }
+}

@@ -1,0 +1,16 @@
+.square-image-container{
+    width: min(80%, 26em);
+    aspect-ratio: 1;
+
+    border-radius: 2em;
+}
+.square-image{
+    width: 100%;
+    
+    border-radius: inherit;
+}
+@media (min-width: 744px) {
+    .square-image-container{
+        width: min(60%, 26em);
+    }
+}

@@ -1,0 +1,27 @@
+:root{
+    --mobile:600px
+}
+.about{
+    padding: 4em 0 2em;
+    background-color: var(--clr-highlight-900);
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    width: 100%;
+    margin-top: 3em;
+}
+@media (min-width: 744px) {
+    .about{
+        padding: 4em 2em 2em;
+    }
+    .about-content{
+        flex-direction: row-reverse;
+        gap: 1em;
+        margin: 3em auto 2em;
+    }
+}

@@ -1,0 +1,22 @@
+.title{
+    position: relative;
+
+    white-space: nowrap;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--ff-primary );
+    font-weight: 700;
+}
+.title__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2em;
+}
+.title__backtitle{
+
+    font-size: 4em;
+    opacity: .2;
+}

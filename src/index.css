@@ -1,0 +1,36 @@
+:root{
+    --ff-primary: 'Poppins', sans-serif;
+
+    --clr-white-900: #EEEEEE;
+    --clr-white-700: #E4E4E4;
+    --clr-white-400: #B4B4B4;
+
+
+    --clr-black-900: #111111; 
+    --clr-black-700: #222222; 
+    --clr-black-400: #3F3F3F;
+
+    --clr-primary-900: #EEEEEE;
+    --clr-primary-700: #E4E4E4;
+    --clr-primary-400: #B4B4B4;
+
+    --clr-secondary-900: #111111;    
+    --clr-secondary-700: #222222;    
+    --clr-secondary-400: #3F3F3F;
+
+    --clr-highlight-900: #3680B7;
+    --clr-highlight-700: #1F6395;
+
+    --breakpoint-tablet: 1024px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}

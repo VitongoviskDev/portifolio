@@ -1,0 +1,28 @@
+.abilities{
+    padding: 4em 0 2em;
+    background-color: var(--clr-white-700);
+}
+.abilities__text{
+    width: 80%;
+    margin: 1em auto 3em;
+
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-size: 16px;
+}
+
+@media (min-width: 744px) {
+    .abilities__text{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1200px) {
+    .abilities{
+        padding: 4em 0;
+    }
+    .abilities__text{
+        font-size: 22px;
+        line-height: 2em;
+        max-width: 48em;
+    }
+}

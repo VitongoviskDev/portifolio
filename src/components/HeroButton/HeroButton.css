@@ -1,0 +1,32 @@
+.hero-button{
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: var(--ff-primary);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--clr-white-700);
+
+    width: 100%;
+    max-width: 30em;
+    padding: .6em;
+    margin: 0 auto;
+
+    background-color: var(--clr-highlight-900);
+
+    border: 2px solid var(--clr-highlight-900);
+    border-radius: .6em;
+}
+.hero-button.outlined{
+    background-color: transparent;
+    color: var(--clr-highlight-900);
+}
+@media (min-width: 1200px) {
+    .hero-button{
+        max-width: 12em;
+        margin: 0;
+    }
+    .hero__text{
+        font-size: 16px;
+    }
+}

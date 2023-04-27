@@ -1,0 +1,29 @@
+.footer{
+    background-color: var(--clr--primary-900);
+    text-align: center;
+    padding: 1em 0 2em;
+}
+.footer__links{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+    margin-bottom: -.5em;
+}
+.footer__links .icon-link > *{
+    width: 32px;
+}
+.footer__text{
+    font-family: var(--ff-primary);
+    color: var(--clr--secondary-700);
+}
+
+@media (min-width: 744px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        align-items: center;
+        
+        padding: 1em;
+    }
+}
