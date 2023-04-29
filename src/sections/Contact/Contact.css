@@ -121,7 +121,7 @@
     .contact{
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        min-height: 90vh;
     }
     .contact__title{
         font-size: 36px;
