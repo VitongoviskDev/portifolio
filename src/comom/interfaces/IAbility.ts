@@ -1,4 +1,4 @@
-import ICertificate from './ICertificate';
+import ICertificate from 'comom/interfaces/ICertificate';
 
 export default interface IAbility{
     id: number,
