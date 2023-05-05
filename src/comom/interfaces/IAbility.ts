@@ -1,7 +1,9 @@
+import ICertificate from './ICertificate';
+
 export default interface IAbility{
     id: number,
     name: string,
     description: string,
-    certified?: string,
+    certified?: ICertificate,
     icon: string
 }
