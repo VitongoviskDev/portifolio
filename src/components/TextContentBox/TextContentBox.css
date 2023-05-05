@@ -25,6 +25,7 @@
 .text-content-box > *:not(.text-content__title){
     line-height: 2.5em;
     font-size: 14px;
+    text-align: justify;
 }
 @media (min-width: 744px) {
     .text-content-box{

@@ -15,6 +15,7 @@ export default function AbilitiesBox() {
         .then(data => {
             setAbilities(data);
             setSelectedAbility(data[0]);
+            console.log('data:', data);
         })
         .catch(error => console.error(error));
     }, []);

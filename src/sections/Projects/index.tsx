@@ -9,6 +9,7 @@ export default function Projects() {
 
     const [projects, setProjects] = useState<IProject[]>([]);
 
+    
     useEffect(() =>{
         fetch('https://my-json-server.typicode.com/VitongoviskDev/portifolio-db/projects')
         .then(response => response.json())

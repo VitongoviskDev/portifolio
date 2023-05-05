@@ -34,8 +34,9 @@
   margin-bottom: -8px;
   
   text-align: center;
+  text-transform: uppercase;
   white-space: nowrap;
-  letter-spacing: .26em;
+  letter-spacing: .20em;
   font-size: 36px;
   font-weight: 700;
   color: var(--clr-secondary-700);
