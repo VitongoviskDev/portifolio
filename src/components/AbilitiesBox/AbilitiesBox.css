@@ -47,3 +47,8 @@
     font-size: 12px;
     color: var(--clr-white-400);
 }
+@media (min-width: 1200px) {
+    .ability__description{
+        font-size: 14px;
+        line-height: 2em;
+}
