@@ -45,7 +45,7 @@ export default function AbilitiesBox() {
                 <p className='ability__description'>{selectedAbility.description}</p>
                 {
                     selectedAbility.certified &&
-                    <p className='ability__certified'>cetificado por: {selectedAbility.certified}</p>
+                    <p className='ability__certified'>{selectedAbility.certified.type}: {selectedAbility.certified.course} - {selectedAbility.certified.plataform}</p>
                 }
             </div>     
             }
