@@ -9,13 +9,17 @@ interface TitleProps{
 }
 
 export default function Title({children, backTitle, color}: TitleProps) {
-    const titleStyles={
-        color: color === 'primary' ? "var(--clr-primary-700)" : 'var(--clr-highlight-900)'
-    }
+  const titleStyles={
+      color: color === 'primary' ? "var(--clr-primary-700)" : 'var(--clr-highlight-900)'
+  }
+  const backtitleStyles={
+      '--border-color': color === 'primary' ? "var(--clr-primary-700)" : 'var(--clr-highlight-900)',
+      color: color !== 'primary' ? "var(--clr-primary-700)" : 'var(--clr-highlight-900)'
+  }
   return (
     <div className='title' style={titleStyles}>
         <h2 className='title__text'>{children}</h2>
-        <span className='title__backtitle'>{backTitle}</span>
+        <span className='title__backtitle' style={backtitleStyles}>{backTitle}</span>
     </div>
   )
 }

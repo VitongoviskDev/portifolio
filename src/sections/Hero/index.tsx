@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="hero__text-container">
           <h3 className='hero__overtitle'>Olá</h3>
           <h1 className='hero__title'>Eu sou Vitor</h1>
-          <h2 className='hero__subtitle'>desenvolvedor front-end</h2>
+          <h2 className='hero__subtitle'>desenvolvedor</h2>
           <p className='hero__text'>Estou em busca de experiência. Que tal ver um pouco mais sobre mim antes de entrar em contato?</p>
         </div>
         <div className="hero__buttons-container">

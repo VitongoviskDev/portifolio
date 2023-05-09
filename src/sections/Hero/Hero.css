@@ -25,8 +25,8 @@
   text-align: ce;
 }
 .hero__overtitle{
-  margin-bottom: -16px;
-  font-size: 28px;
+  margin-bottom: -12px;
+  font-size: 17px;
   font-weight: 400;
   color: var(--clr-highlight-700);
 }
@@ -37,7 +37,7 @@
   text-transform: uppercase;
   white-space: nowrap;
   letter-spacing: .20em;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--clr-secondary-700);
 }
@@ -46,8 +46,8 @@
 
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: .55em;
-  font-size: 12px;
+  letter-spacing: 1.3em;
+  font-size: 10px;
   font-weight: 400;
   color: var(--clr-highlight-700);
 }
@@ -55,7 +55,7 @@
   margin-bottom: 32px;
 
   line-height: 1.8em;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
 }
 .hero__buttons-container{
