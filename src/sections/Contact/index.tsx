@@ -10,7 +10,7 @@ export default function Contact() {
             <h3 className='contact__subtitle'>que tal entrar em contato?</h3>
         </div>
         <div className="contact__content">
-            <p className='contact__text'>Estou em busca de minha primeira oportunidade como desenvolvedor front-end e adoraria trabalhar com uma empresa que proporcione conhecimento e desafios. Se você está procurando um desenvolvedor dedicado para sua equipe, entre em contato comigo agora e faça parte do meu desenvolvimento profissional !</p>
+            <p className='contact__text'>Estou em busca de minha primeira oportunidade como desenvolvedor Full Stack e adoraria trabalhar com uma empresa que proporcione conhecimento e desafios. Se você está procurando um desenvolvedor dedicado para sua equipe, entre em contato comigo agora e faça parte do meu desenvolvimento profissional !</p>
             <form className='contact__form'>
                 <div className="contact__form__field">
                     <label className="contact__form__label" htmlFor="message-input">Mensagem:</label>
