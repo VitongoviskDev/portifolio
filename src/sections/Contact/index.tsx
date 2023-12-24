@@ -61,7 +61,7 @@ export default function Contact() {
                     <label className="contact__form__label" htmlFor="message-input">Mensagem:</label>
                     <textarea  className='contact__form__input' name="message" id="message-input" placeholder='Deixe sua mensagem!'></textarea>
                 </div>
-                <button onClick={ShowWarning} className="contact__form__button">Enviar mensagem</button>
+                <button type='button' onClick={ShowWarning} className="contact__form__button">Enviar mensagem</button>
                 <p className="contact__form__warning">A mensagem será enviada pelo linkedin</p>
             </form>
         </div>
