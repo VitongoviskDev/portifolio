@@ -37,7 +37,7 @@ export default function Contact() {
             <div className="contact__warning">
                 <IoMdClose className="contact__warning__close"/>
                 <h2 className='contact__warning__title'>DESCULPE!</h2>
-                <p className='contact__warning__text'>Esta função está indisponível no momento, mas já estou trabalhando para concertá-la o mais rápido possivel, enquanto isso você pode me contatar por outros métodos.</p>
+                <p className='contact__warning__text'>Esta função está indisponível no momento, mas já estou trabalhando para consertá-la o mais rápido possivel, enquanto isso você pode me contatar por outros métodos.</p>
                 <div className="contact__warning__methods">
                     <div className="contact__warning__method">
                         <IoLogoWhatsapp />
