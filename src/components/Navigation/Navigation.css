@@ -9,7 +9,7 @@
     font-family: var(--ff-primary);
     z-index: 1;
 }
-.navigation__disabler{
+.navigation .navigation__disabler{
     position: absolute;
     height: 100vh;
     width: 100vw;

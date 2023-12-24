@@ -29,7 +29,7 @@ export default function Navigation() {
 
     return (
         <header className='navigation'>
-            <span className="navigation__disabler" style={menuDisplayStyle} onClick={() => closeMenu()}/>
+            <span className="navigation__disabler" style={menuDisplayStyle} onClick={closeMenu}/>
 
             <div className="navigation__menu" style={menuDisplayStyle} onClick={() => closeMenu()}>
                 <ul className='navigation__menu__list'>
