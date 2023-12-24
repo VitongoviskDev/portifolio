@@ -38,7 +38,10 @@ export default function Contact() {
         event.preventDefault();
     
         if(name === '' || email === '' || message === ''){
-          ShowWarning("atenção", "Preencha todos os campos");
+          setTimeout(() => { 
+            ShowWarning("atenção", "Preencha todos os campos"); 
+          }, 500);
+          
           return;
         }
     
@@ -59,7 +62,11 @@ export default function Contact() {
           setEmail('');
           setMessage('');
 
-          ShowWarning("E-mail enviado com sucesso!", "Seu e-mail já chegou aqui. Obrigado pode deixar a sua mensagem, vou tentar te responder o mais rápido possível");
+          
+          setTimeout(() => { 
+            ShowWarning("E-mail enviado com sucesso!", "Seu e-mail já chegou aqui. Obrigado pode deixar a sua mensagem, vou tentar te responder o mais rápido possível"); 
+          }, 500);
+          
         })
     }
 
@@ -84,7 +91,6 @@ export default function Contact() {
                     <textarea  className='contact__form__input' name="message" id="message-input" placeholder='Deixe sua mensagem!' value={message} onChange={(e) => setMessage(e.target.value)} ></textarea>
                 </div>
                 <button type='submit' className="contact__form__button">Enviar mensagem</button>
-                <p className="contact__form__warning">A mensagem será enviada pelo linkedin</p>
             </form>
         </div>
     </section>
