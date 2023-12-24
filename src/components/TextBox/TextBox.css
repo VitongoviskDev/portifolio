@@ -1,0 +1,33 @@
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+.text-box label{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--clr-white-700);
+}
+.text-box input{
+    padding: .5em 1.5em;
+    margin-bottom: 16px;
+
+    font-family: var(--ff-primary);
+    font-size: 12px;
+    color: var(--clr-white-700);
+    background-color: var(--clr-highlight-700);
+    
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+    resize: none;
+
+}
+.text-box::placeholder{
+    font-family: var(--ff-primary);
+    color: var(--clr-white-400);
+}
+
+@media (min-width: 1200px) {
+    
+}
